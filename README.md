@@ -1,5 +1,12 @@
 # 🚀 Enterprise AI & Workflow Automation Solutions
 
+# 🏛️ AI-Driven Building Permit Data Extraction Pipeline
+
+Automated n8n workflow pipeline to extract structured building permit data using Claude 3.5 Sonnet and auto-save directly to Google Sheets.
+
+[![Get it on Gumroad] https://mohamedsaad80.gumroad.com/l/n8n-building-permit-extractor
+
+---
 Welcome to my automation engineering portfolio! I architect and deploy high-impact, custom automation pipelines using **n8n**, **Make**, **AI/LLM integrations (Claude 3.5 Sonnet / OpenAI)**, and cloud tools. My mission is simple: eliminate repetitive manual data entry, streamline operations, and save businesses hundreds of hours every month.
 
 ---
