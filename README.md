@@ -1,45 +1,83 @@
-# 🚀 Enterprise AI & Workflow Automation Solutions
+# 🛠️ Mohamed Saad El Harrat | AI & Workflow Automation Engineer
 
-# 🏛️ AI-Driven Building Permit Data Extraction Pipeline
-
-Automated n8n workflow pipeline to extract structured building permit data using Claude 3.5 Sonnet and auto-save directly to Google Sheets.
-
-[![Get it on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Workflow%20Template-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/n8n-building-permit-extractor)
-
----
-Welcome to my automation engineering portfolio! I architect and deploy high-impact, custom automation pipelines using **n8n**, **Make**, **AI/LLM integrations (Claude 3.5 Sonnet / OpenAI)**, and cloud tools. My mission is simple: eliminate repetitive manual data entry, streamline operations, and save businesses hundreds of hours every month.
+Hi, I'm Mohamed! 👋  
+I am an automation engineering student and systems architect specializing in building fault-tolerant, high-impact automation pipelines. I help businesses eliminate manual data entry, optimize operations, and integrate AI seamlessly into their existing software stack using **n8n**, **Make**, **Python**, and **LLM APIs (Claude 3.5 / OpenAI Vision)**.
 
 ---
 
-## 🛠️ Featured Production Pipelines
+## 🌟 Featured Portfolio Projects
 
-### 1. 📋 AI-Driven Building Permit Data Extraction Pipeline
+### 1. 🏛️ AI-Driven Building Permit Data Extraction Pipeline
+An automated end-to-end extraction pipeline that parses complex, multi-page PDF building permits using Claude 3.5 Sonnet and auto-syncs structured records directly to Google Sheets.
+
+[![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($50)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/n8n-building-permit-extractor)
+
 * **Tech Stack:** `n8n` | `Claude 3.5 Sonnet API` | `Google Drive` | `Google Sheets`
-* **The Challenge:** Real estate agencies and construction firms waste hundreds of billable hours manually reading, copying, and pasting permit details from unstructured PDF files into databases—a process heavily prone to human error.
-* **The Solution:** 
-  - **Instant Trigger:** Automatically detects any new PDF document added to a designated Google Drive folder.
-  - **LLM Context Extraction:** Leverages Claude 3.5 Sonnet to parse complex, multi-page PDFs and extract key structured fields (Permit Number, Applicant Name, Site Address, Issue Date, Project Description, Status).
-  - **Automated Logging:** Writes formatted output into a Google Sheets tracking database in real time.
-* **Business Impact:** 100% reduction in manual data entry errors and document processing time reduced from 15 minutes to **under 10 seconds per file**.
-* **📺 Live Demo:** [Watch 1-Minute Loom Video Demo] https://www.loom.com/share/df8ffdf348a14e02805ff2c8f9ec7b7a
+* **Problem:** Construction and real estate teams spend hundreds of hours manually copying unstructured permit data from multi-page PDFs—a slow process heavily prone to human error.
+* **Architecture:**
+  * **Event-Driven Intake:** Auto-detects newly uploaded PDFs in Google Drive.
+  * **Contextual Parsing:** Extracts specific key fields (*Permit Number, Applicant, Site Address, Issue Date, Project Description, Status*) using Claude 3.5 Sonnet.
+  * **Automated Sync:** Normalizes and appends structured records into Google Sheets in real time.
+* **Impact:** 100% reduction in manual data entry errors; processing time cut from **15 minutes to under 10 seconds per file**.
+* **🎥 Video Demo:** [Watch 1-Minute Technical Walkthrough on Loom](https://www.loom.com/share/df8ffdf348a14e02805ff2c8f9ec7b7a)
 
 ---
 
 ### 2. ⚡ Autonomous AI Lead Qualification & Instant Outreach
-* **Tech Stack:** `n8n` | `Google Sheets` | `Gmail` | `OpenAI / Claude API`
-* **The Challenge:** Delayed response times to prospective leads severely harm conversion rates for modern businesses.
-* **The Solution:**
-  - Automatically fetches incoming leads from Google Sheets/Webhooks.
-  - Generates highly contextual, personalized email responses using AI.
-  - Dispatches automated follow-ups via Gmail and updates row status to `"Contacted"` in real time.
-* **Business Impact:** Near-zero outreach latency and significantly improved lead-to-client conversion rates.
+An intelligent lead intake system that ingests incoming inquiries, scores project viability using LLMs, and triggers context-aware outbound communication automatically.
+
+[![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($40)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/xcshzz)
+
+* **Tech Stack:** `n8n` | `OpenAI / Claude API` | `Google Sheets` | `Gmail / SMTP`
+* **Problem:** Delayed follow-ups on incoming lead submissions drastically reduce lead-to-client conversion rates.
+* **Architecture:**
+  * **Real-Time Capture:** Intercepts incoming webhooks, contact form submissions, or sheet rows.
+  * **Algorithmic AI Scoring:** Evaluates budget, scope, and urgency to assign qualification tiers.
+  * **Automated Engagement:** Generates personalized email responses via LLMs and dispatches follow-ups instantly via Gmail.
+* **Impact:** Reduces initial response latency to under 1 minute, providing 24/7 automated lead handling.
 
 ---
 
-## 💼 Custom Integrations & Business Inquiries
+### 3. 🎯 Automated Lead Triage & Intelligent Routing Engine
+A multi-criteria routing pipeline that analyzes incoming service requests, categorizes urgency, and auto-dispatches priority notifications to internal sales teams.
 
-Looking to deploy one of these exact workflows for your business, or need a custom **n8n / Make / Python** integration built from scratch? Let's connect!
+[![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($35)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/leqgtm)
 
-* 💼 **Upwork Profile:** https://www.upwork.com/freelancers/~01be1ec2fa03487bc6
-* 📧 **Email:** mohamedsaad.elharrat@gmail.com
-* 🛠️ **Custom Solutions:** Tailored deployment, server setup (Docker/Cloud), and long-term workflow maintenance available upon request.
+* **Tech Stack:** `n8n` | `OpenAI API` | `Slack API` | `Google Sheets`
+* **Problem:** Unfiltered contact submissions cause internal clutter, misrouted inquiries, and delayed team assignments.
+* **Architecture:**
+  * **Multi-Criteria Triage:** Combines AI classification with custom business rules to rank leads by priority (*High / Medium / Low*).
+  * **Instant Dispatch:** Broadcasts formatted alerts directly to designated Slack channels and updates central database records.
+* **Impact:** Eliminates internal triage bottlenecks and speeds up sales team response times.
+
+---
+
+### 4. 📄 AI-Powered Invoice & Receipt Data Extractor
+An OCR and multimodal visual parsing workflow that extracts line-item financial figures from PDF invoices and receipt images automatically.
+
+[![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($45)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/fkeeko)
+
+* **Tech Stack:** `n8n` | `Claude 3.5 Vision / OpenAI` | `Google Drive` | `Google Sheets`
+* **Problem:** Accounting teams spend valuable hours on manual expense logging, visual document reading, and audit tracking.
+* **Architecture:**
+  * **Multimodal Extraction:** Reads line items, subtotal, tax, vendor details, and due dates directly from image files and PDF documents.
+  * **Automated Archival:** Moves processed files into organized cloud storage folders while logging clean financial entries into tracking sheets.
+* **Impact:** Standardizes accounting trails, accelerates monthly reconciliation, and eliminates manual data entry.
+
+---
+
+## 🧰 Technical Skills & Tools
+
+* **Workflow Automation:** n8n, Make, Webhooks, REST APIs
+* **AI & Machine Learning Integration:** Claude 3.5 Sonnet / Vision API, OpenAI GPT-4o API, Prompt Engineering
+* **Languages & Cloud Tools:** Python, C, Docker, Google Cloud / Drive API, Gmail API, Slack API
+
+---
+
+## 💼 Work With Me
+
+Need a custom automation built for your business, self-hosted n8n deployment, or API integration from scratch? Let's connect!
+
+* 💼 **Upwork Profile:** [Hire Me on Upwork](https://www.upwork.com/freelancers/~01be1ec2fa03487bc6)
+* 📧 **Direct Email:** [mohamedsaad.elharrat@gmail.com](mailto:mohamedsaad.elharrat@gmail.com)
+* ⚡ **Services Offered:** Custom n8n/Make Workflows • Docker & Server Deployment • LLM Integration • Workflow Audit & Maintenance
