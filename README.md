@@ -1,6 +1,6 @@
 # 🛠️ Mohamed Saad El Harrat | AI & Workflow Automation Engineer
 
-Hi, I'm Mohamed! 👋  
+Hi, I'm Saad! 👋  
 I am an automation engineering student and systems architect specializing in building fault-tolerant, high-impact automation pipelines. I help businesses eliminate manual data entry, optimize operations, and integrate AI seamlessly into their existing software stack using **n8n**, **Make**, **Python**, and **LLM APIs (Google Gemini / Claude 3.5 / OpenAI Vision)**.
 
 ---
