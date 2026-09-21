@@ -1,13 +1,28 @@
 # 🛠️ Mohamed Saad El Harrat | AI & Workflow Automation Engineer
 
 Hi, I'm Mohamed! 👋  
-I am an automation engineering student and systems architect specializing in building fault-tolerant, high-impact automation pipelines. I help businesses eliminate manual data entry, optimize operations, and integrate AI seamlessly into their existing software stack using **n8n**, **Make**, **Python**, and **LLM APIs (Claude 3.5 / OpenAI Vision)**.
+I am an automation engineering student and systems architect specializing in building fault-tolerant, high-impact automation pipelines. I help businesses eliminate manual data entry, optimize operations, and integrate AI seamlessly into their existing software stack using **n8n**, **Make**, **Python**, and **LLM APIs (Google Gemini / Claude 3.5 / OpenAI Vision)**.
 
 ---
 
 ## 🌟 Featured Portfolio Projects
 
-### 1. 🏛️ AI-Driven Building Permit Data Extraction Pipeline
+### 1. ⚡ AI-Powered Inbound Lead Processing Pipeline (n8n + Gemini + Gmail)
+An automated lead qualification engine that ingests webform submissions in real time, evaluates lead intent and scope using Google Gemini AI, and generates tailored HTML follow-up emails sent via Gmail.
+
+[![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($27)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/xiohtk)
+
+* **Tech Stack:** `n8n` | `Google Gemini API` | `Gmail API` | `JavaScript` | `HTML`
+* **Problem:** Delayed responses to inbound sales inquiries directly hurt conversion rates and waste sales team bandwidth on unqualified prospects.
+* **Architecture:**
+  * **Instant Event Intake:** Intercepts form submissions via n8n Webhook/Form trigger with zero latency.
+  * **Contextual AI Qualification:** Uses Google Gemini to analyze lead inquiries and structure a personalized, professional HTML response.
+  * **Automated Dispatch:** Formats dynamic content and dispatches branded email follow-ups automatically via Gmail.
+* **Impact:** Cuts initial response time from hours to **under 10 seconds**, delivering 24/7 automated lead qualification.
+
+---
+
+### 2. 🏛️ AI-Driven Building Permit Data Extraction Pipeline
 An automated end-to-end extraction pipeline that parses complex, multi-page PDF building permits using Claude 3.5 Sonnet and auto-syncs structured records directly to Google Sheets.
 
 [![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($50)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/n8n-building-permit-extractor)
@@ -23,7 +38,7 @@ An automated end-to-end extraction pipeline that parses complex, multi-page PDF 
 
 ---
 
-### 2. ⚡ Autonomous AI Lead Qualification & Instant Outreach
+### 3. ⚡ Autonomous AI Lead Qualification & Instant Outreach
 An intelligent lead intake system that ingests incoming inquiries, scores project viability using LLMs, and triggers context-aware outbound communication automatically.
 
 [![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($40)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/xcshzz)
@@ -38,7 +53,7 @@ An intelligent lead intake system that ingests incoming inquiries, scores projec
 
 ---
 
-### 3. 🎯 Automated Lead Triage & Intelligent Routing Engine
+### 4. 🎯 Automated Lead Triage & Intelligent Routing Engine
 A multi-criteria routing pipeline that analyzes incoming service requests, categorizes urgency, and auto-dispatches priority notifications to internal sales teams.
 
 [![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($35)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/leqgtm)
@@ -52,7 +67,7 @@ A multi-criteria routing pipeline that analyzes incoming service requests, categ
 
 ---
 
-### 4. 📄 AI-Powered Invoice & Receipt Data Extractor
+### 5. 📄 AI-Powered Invoice & Receipt Data Extractor
 An OCR and multimodal visual parsing workflow that extracts line-item financial figures from PDF invoices and receipt images automatically.
 
 [![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($45)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/fkeeko)
@@ -69,7 +84,7 @@ An OCR and multimodal visual parsing workflow that extracts line-item financial 
 ## 🧰 Technical Skills & Tools
 
 * **Workflow Automation:** n8n, Make, Webhooks, REST APIs
-* **AI & Machine Learning Integration:** Claude 3.5 Sonnet / Vision API, OpenAI GPT-4o API, Prompt Engineering
+* **AI & Machine Learning Integration:** Google Gemini API, Claude 3.5 Sonnet / Vision API, OpenAI GPT-4o API, Prompt Engineering
 * **Languages & Cloud Tools:** Python, C, Docker, Google Cloud / Drive API, Gmail API, Slack API
 
 ---
@@ -80,4 +95,9 @@ Need a custom automation built for your business, self-hosted n8n deployment, or
 
 * 💼 **Upwork Profile:** [Hire Me on Upwork](https://www.upwork.com/freelancers/~01be1ec2fa03487bc6)
 * 📧 **Direct Email:** [mohamedsaad.elharrat@gmail.com](mailto:mohamedsaad.elharrat@gmail.com)
-* ⚡ **Services Offered:** Custom n8n/Make Workflows • Docker & Server Deployment • LLM Integration • Workflow Audit & Maintenance
+* ⚡ **Services Offered:**
+  * Custom n8n & Make Workflow Development
+  * Self-Hosted n8n Setup (Docker / VPS Infrastructure)
+  * Custom LLM Integration (Google Gemini, OpenAI, Claude APIs)
+  * System Architecture Audits & Error Mitigation
+  * Custom Webhook & API Middleware Development
