@@ -10,7 +10,7 @@ I am an automation engineering student and systems architect specializing in bui
 ### 1. ⚡ AI-Powered Inbound Lead Processing Pipeline (n8n + Gemini + Gmail)
 An automated lead qualification engine that ingests webform submissions in real time, evaluates lead intent and scope using Google Gemini AI, and generates tailored HTML follow-up emails sent via Gmail.
 
-[![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($27)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/xiohtk)
+[![Buy Template on Gumroad](https://img.shields.io/badge/Gumroad-Buy%20Template%20($37)-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://mohamedsaad80.gumroad.com/l/xiohtk)
 
 * **Tech Stack:** `n8n` | `Google Gemini API` | `Gmail API` | `JavaScript` | `HTML`
 * **Problem:** Delayed responses to inbound sales inquiries directly hurt conversion rates and waste sales team bandwidth on unqualified prospects.
